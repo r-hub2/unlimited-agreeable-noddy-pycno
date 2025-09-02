@@ -13,8 +13,8 @@ algorithm. The result is a SpatialGridDataFrame.
 \tabular{ll}{
 Package: \tab pycno\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-04-15\cr
+Version: \tab 1.4.1\cr
+Date: \tab 2025-09-01\cr
 License: \tab GPL (>=2)\cr
 LazyLoad: \tab yes\cr
 }
@@ -26,7 +26,7 @@ when summed over the polygons contained in each pixel.
 \author{
 Chris Brunsdon
 
-Maintainer: Francesca Bitonti \email{francesca.bitonti@phd.unict.it}
+Maintainer: Francesca Bitonti \email{francesca.bitonti@unict.it}
 }
 \references{
 Tobler, W.R. (1979) \emph{Smooth Pycnophylactic Interpolation for Geographical Regions}. Journal of the American Statistical Association, v74(367) pp. 519-530.

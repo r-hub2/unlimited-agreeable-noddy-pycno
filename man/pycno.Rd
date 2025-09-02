@@ -38,7 +38,7 @@ If set to \code{TRUE} (the default value) makes the function report the maximum 
 This method uses an iterative approach,  and for each iteration notes the maximum change in a pixel.  When this value falls below a certain level (actually 10^(-converge) times the largest initial pixel value) the iterations stop and the current surface is reported.  
 }
 \value{
-A \code{\link[sp:SpatialGridDataFrame-class]{SpatialGridDataFrame}} with each pixel set at the estimated density computed with the Pycnophylactic algorithm,  these values being stored in the data item \code{dens}. The extent of this object is set at by the bounding box of the input \code{\link{SpatialPolygonsDataFrame}}.  Pixels outside of all of the polygons are set to NA.
+A \code{\link[sp:SpatialGridDataFrame-class]{SpatialGridDataFrame}} with each pixel set at the estimated density computed with the Pycnophylactic algorithm,  these values being stored in the data item \code{dens}. The extent of this object is set at by the bounding box of the input \code{\link[sp:SpatialPolygonsDataFrame-class]{SpatialPolygonsDataFrame}}.  Pixels outside of all of the polygons are set to NA.
 }
 \references{
 Tobler, W.R. (1979) \emph{Smooth Pycnophylactic Interpolation for Geographical Regions}. Journal of the American Statistical Association, v74(367) pp. 519-530.
