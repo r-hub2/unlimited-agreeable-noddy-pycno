@@ -14,7 +14,7 @@ Description: Given a SpatialPolygonsDataFrame and a set of populations for each 
  Methods are described in Tobler Waldo R. (1979) <doi:10.1080/01621459.1979.10481647>.
 License: GPL (>= 2)
 LazyLoad: yes
-Packaged: 2025-09-01 14:25:10 UTC; Fra
+Packaged: 2025-09-02 06:13:37 UTC; Fra
 NeedsCompilation: no
 Repository: CRAN
 Date/Publication: 2023-05-15 09:10:01 UTC
